@@ -177,6 +177,18 @@ keyboard][hid].
 [#37]: https://github.com/Genymobile/scrcpy/issues/37
 [hid]: doc/keyboard.md#physical-keyboard-simulation
 
+### Arabic and RTL Language Input
+
+scrcpy does not support Arabic, RTL languages, or emojis in its default key event mode.
+
+To type in Arabic:
+   1. Launch with:
+       scrcpy --hid-keyboard
+   2. On Android, go to: Settings > System > Languages & Input > Physical Keyboard
+   3. Add Arabic layout and switch to it via shortcut *probably crtl+space* .
+
+This method allows full Arabic input via your PC keyboard.
+
 
 ## Client issues
 
